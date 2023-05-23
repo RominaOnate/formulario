@@ -1,0 +1,63 @@
+body {
+  background: MistyRose	;
+  font-family: times new roman;
+  text-align: center;
+}
+
+h1{
+  color: #333;
+}
+
+
+form {
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+textarea {
+  width:70%
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-top: 5px;
+}
+
+select {
+  width:50%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="date"] {
+  width: 50%
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  width: 40%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: times, sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
