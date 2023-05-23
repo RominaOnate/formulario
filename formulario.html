@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+</head>
+ <script>
+   function mostrarAlerta() {
+     alert("¡Formulario Enviado!");
+   }
+ </script>
+ <link rel="stylesheet" type="text/css" href="#stylefor.css"
+
+<body>
+  <h1>Formulario</h1>
+
+  <style>
+      body{
+         background: MistyRose;
+         font-family: times new roman;
+      }
+  </style>
+
+  <img src="C:\Users\romin\Downloads\formularios.jpg"> </img><br>
+
+  <form action="procesar_formulario.php" method="POST">
+
+    <div class="form-group">
+        <label for="Cedula">Cedula:</label><br>
+        <input type="number" id="Cedula" name="Cedula" required><br>
+    </div>
+    <div class="form-group">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+    </div>
+
+    <div class="form-group">
+        <label for="Apellido">Apellido:</label><br>
+        <input type="text" id="Apellido" name="Apellido" required><br>
+    </div>
+
+    <div class="form-group">
+    <label >Sexo :</label><br>
+    <input type="radio" name="sexo">Masculino<br>
+    <input type="radio" name="sexo">Femenino<br>
+    </div>
+
+    <div>
+    <label >Nacionalidad :</label><br>
+    <select name="" id="">
+   <option value="">Ecuatoriana</option>
+   <option value="">Peruana</option>
+   <option value="">Colombiano</option>
+    </select><br>
+    </div>
+    <label>Fecha:</label><br>
+    <input type="date"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" required></textarea><br>
+
+
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
